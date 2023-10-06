@@ -14,7 +14,9 @@ if company == "Google" {
 
 // CONDICIONAIS USANDO OPERADORES TERNÁRIOS
 
-// EXPRESSÃO ? valor-true : valor-false
+// O QUE VOCÊ IRÁ FAZER É ATRIBUIR AO PRODUTO O RESULTADO DE UMA EXPRESSÃO
+
+// VARIÁVEL = EXPRESSÃO ? valor-true : valor-false
 
 product = company == "Google" ? "Android" : "iPhone"
 print(product)
