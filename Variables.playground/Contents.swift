@@ -9,5 +9,6 @@ let pi = 3.14 // aqui estou declarando uma variável constante no Swift, não po
 print(user) // aqui estou printando no Swift
 print(pi)
 
-/* Esse aqui é um exemplo 
+/* Esse aqui é um exemplo
  de comentários multi linha */
+

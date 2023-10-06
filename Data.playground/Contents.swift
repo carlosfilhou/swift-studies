@@ -17,3 +17,4 @@ let number: Int = 6
 let pi: Double = 3.14
 let surname: String = "Dos Santos"
 let admin: Bool = true
+
