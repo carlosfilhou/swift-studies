@@ -14,6 +14,10 @@ let rg = 0..<limit // também pode ser especificado por uma variável
 
 // FOR É CONTROLADO PELO RANGE
 
+for i in 1..<5 { // exemplo simples "<" serve para excluir o último índice
+    print("o index é : ", i)
+}
+
 var sum = 0 // declarando variável para somar na execução
 let count = 10 // declarando variável para especificar o limite
 
