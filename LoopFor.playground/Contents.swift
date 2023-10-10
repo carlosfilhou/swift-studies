@@ -21,7 +21,7 @@ for i in 1..<5 { // exemplo simples "<" serve para excluir o último índice
 var sum = 0 // declarando variável para somar na execução
 let count = 10 // declarando variável para especificar o limite
 
-for i in 1...count { // essa variável "i" é imutável (let), ele só serve para saírmos do bloco
+for i in 1...count { // variável "i" é imutável(let e pode ter qualquer nome, serve apenas para sair do bloco
     sum += i
 }
 print("essa é a soma dos índices: ", sum) // a soma de todas das vezes que o "for" passou pelo "i"
