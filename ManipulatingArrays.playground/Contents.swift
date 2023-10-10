@@ -10,11 +10,11 @@ userNames += ["Carlos", "João", "Rafael"] // incrementando uma nova lista a uma
 
 print("primeiro print: ", userNames) // printando a minha lista
 
-userNames[0...1] = ["LucasSubstituto", "DanSubstituto", "GabrielSubstituto"] // troca dos elementos através de slice
+userNames[0...1] = ["LucasSubstituto", "DanSubstituto", "GabrielSubstituto"] // substituir elementos através de slice
 
 print("print após troca de elementos: ", userNames) // printando a minha lista
 
-userNames.swapAt(0, 1) // invertando dois índices de posição
+userNames.swapAt(0, 1) // invertendo dois índices de posição
 
 print("print após swap de índice 0 e 1: ", userNames) // printando a minha lista
 
