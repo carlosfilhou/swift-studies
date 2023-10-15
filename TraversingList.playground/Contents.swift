@@ -16,5 +16,5 @@ for i in 0..<dollars.count { // percorrendo até a quantidade de índices ".coun
 // FILTRAR DADOS DENTRO DA LISTA PERCORRIDA
 
 for i in 0..<dollars.count where dollars[i] < 5.0 { // filtrando com o "where"
-    print("Dolar \(dollars[i]), dia \(days[i])")
+    print("Dolar menor que 5: \(dollars[i]), dia \(days[i])")
 }
