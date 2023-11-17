@@ -39,7 +39,7 @@ func megaSenaGenerator2(total: Int) { // declarando a função com parâmetro (N
     }
 }
 
-megaSenaGenerator2(total: 12) // chamando a função pela segunda vez com o argumento do parâmetro
+megaSenaGenerator2(total: 12) // chamando a função pela segunda e colocando argumento no parâmetro
 
 print("EXEMPLO 3 -Agora chamando outra função com 2 parâmetros-")
 
@@ -58,4 +58,4 @@ func megaSenaGenerator3(total: Int, maxNumber: Int) { // declarando a função c
     }
 }
 
-megaSenaGenerator3(total: 8, maxNumber: 50)
+megaSenaGenerator3(total: 8, maxNumber: 50) // chamando a função pela terceira vez e colocando argumentos no parâmetros
