@@ -17,20 +17,21 @@ print(OptionalString)
 // TRAZENDO EXEMPLO REAL E UMA MANEIRA PARA RESOLVER (USANDO A MELHOR MANEIRA DE RESOLVER COM IF LET) - *Contador de String*
 
 //EXEMPLO 1 (tela de login)
-var user: String? = "Carlos"
-var phone: Int? = nil
+var user: String? = "Carlos" // declarando variável como opcional
+var phone: Int? = nil // declarando variável como opcional
 var password: String = "12345678"
 
-func login(user: String?, phone: Int?, password: String) {
+func login(user: String?, phone: Int?, password: String) { // especificando o tipo opcional
     if let user = user {
         print("Fazer o login via user: \(user)")
     } else if let phone = phone {
-        Print("Fazer o login via phone: \(phone)")
+        print("Fazer o login via phone: \(phone)")
     } else {
-        Print("Error! na tela do usuário, precisa especificar telefone ou user")
+        print("Error! na tela do usuário, precisa especificar telefone ou username")
     }
 }
 
+login(user: nil, phone: nil, password: "123456781") // fazendo a chamada
 
 // EXEMPLO 2
 
@@ -80,6 +81,13 @@ print(res1)
 
 // ----------------------------------------------
 
-// OUTRO EXEMPLO AGORA FORÇANDO A DESCOMPACTAR O VALOR DO OPCIONAL (FORCE UNWRAP)
+// OUTRO EXEMPLO AGORA FORÇANDO A DESCOMPACTAR O VALOR DO OPCIONAL (FORCE UNWRAP CUIDADO!!)
+
+var name: String? // declarando uma variável opcional (sem valor)
+name = "João" // dando valor a variável opcional
+
+print(name) // printando a variável compactada: Optional("João")
+print(name!) // descompactar o valor: João  (CUIDADO PARA ESSA VARIÁVEL NÃO ESTAR NULA AO DECORRER DO PROGRAMA)
+
 
 
