@@ -17,8 +17,10 @@ class house {
     }
 }
 
+// pode colocar o tipo
 var smallHouse: house = house(doors: 1, windows: 1, rooms: 1, size: 10.10)
-var bigHouse: house = house(doors: 4, windows: 8, rooms: 5, size: 200.10)
+// ou não colocar o tipo
+var bigHouse = house(doors: 4, windows: 8, rooms: 5, size: 200.10)
 
 
 print("O número de quartos da casa pequena é: \(smallHouse.rooms)")
