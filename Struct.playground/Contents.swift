@@ -17,4 +17,4 @@ struct cars {
 // no struct diferente da class você atribuir a uma variável (instancia) sem precisar inicializar. Mas você ainda pode inicializa-la se quiser
 var mercedez = cars(color: "red", eletric: true, seats: 4)
 mercedez.turnOn() // informando instancia (ou seja o objeto (carro) e chamando a função para liga-lo
-print(mercedez)
+print(mercedez) // você só consegue printar pq é um struct, se fosse uma classe você não conseguiria
