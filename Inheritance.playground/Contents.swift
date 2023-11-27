@@ -21,9 +21,9 @@ class animal { // declarando uma classe ou superclasse
 class lion: animal { // criando uma subclass lion herdada da superclass animal
     var hasFur: Bool
     
-    init(hasFur: Bool, name: String) {
+    init(hasFur: Bool, name: String) { // repare que foi inicializado o construtor da super class também
         self.hasFur = hasFur
-        super.init(name: "Simba")
+        super.init(name: "Simba") // repare que foi inicializado o construtor da super class também
     }
 }
 
